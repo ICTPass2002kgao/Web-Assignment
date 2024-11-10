@@ -1,1 +1,1 @@
-gunicorn furniapp.wsgi:application --log-file -
+web: gunicorn furniShop.wsgi:application --log-file -
